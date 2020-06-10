@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="ru">
-
-
+<!--[if lt IE 7 ]>
+<html class="ie ie6"
+lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7"
+lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8"
+lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="ru"> <!--<![endif]-->
 <head>
 
 	<meta charset="utf-8">
 
-	<title>Заголовок</title>
+	<title>Питомник Garden MaxPro</title>
 	<meta name="description" content="">
 
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
@@ -19,7 +27,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -33,16 +41,16 @@
 		<div class="top-line">
 
 			<div class="container">
-
 				<div class="row">
-					<div class="col-sm-3 top-logos">
-						<a href="index.html" class="logo-garden align-baseline">garden<span>maxpro</span></a>
+					<div class="col-md-3">
+						<a href="index.html" class="logo-garden">garden<span>maxpro</span></a>
 					</div>
-					<div class="col-sm-9 align-self-center">
+					<div class="col-md-9">
 						<!-- The nav menu -->
 						<nav class="main-mnu">
 							<ul>
-								<li class="active"><a href="#">Главная</a></li>
+								<li class="active">
+									<a href="#">Главная</a></li>
 								<li><a href="#">Монтаж</a></li>
 								<li><a href="#">Проектирование</a></li>
 								<li><a href="#">Оборудование</a></li>
@@ -54,9 +62,11 @@
 
 				</div>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
+			<section class="one">
+						<div class="container">
+				<div class="header-center">
+									<div class="row">
+					<div class="col-4">
 						<h1 class="d-flex align-items-center ">
 							интернет-магазин <br> саженцев
 						</h1>
@@ -65,13 +75,18 @@
 							Заказывай и высаживай!
 						</h2>
 					</div>
-					<div class="col-sm-8 hand-img img-responsive">
-						<img src="/img/hand.png" alt="">
+					<div class="col-8 hand-img img-responsive">
+						<img src="img/hand.png" alt="">
 					</div>
 
 				</div>
+				</div>
 
-			</div>
+
+			</div>	
+
+			</section>
+
 
 
 
@@ -85,7 +100,6 @@
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="/bootstrap/js/bootstrap.js"></script>
 	<script src="js/common.js"></script>
 
 </body>
