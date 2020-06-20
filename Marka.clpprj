@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project name="/Users/vitalij/Documents/Git/Marka/Marka.clpprj">
+ <settings>
+  <PM_URL><![CDATA[http://localhost/Marka]]></PM_URL>
+  <PM_HOME_URL><![CDATA[http://localhost/Marka]]></PM_HOME_URL>
+  <PM_LIBS><![CDATA[]]></PM_LIBS>
+  <PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION>
+  <PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR>
+  <PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE>
+ </settings>
+ <removed value=";"/>
+ <added value=""/>
+ <lastopfiles>
+  <file name="/Users/vitalij/Documents/Git/Marka/index.html"/>
+  <lastactivefile name=""/>
+ </lastopfiles>
+ <errors version="1.3">
+  <errfile name="/Users/vitalij/Documents/Git/Marka/css/main.css">
+   <error val="6;399;11;399;2502;1;"/>
+  </errfile>
+  <errfile name="/Users/vitalij/Documents/Git/Marka/css/fonts.css">
+   <error val="1;2;54;2;2502;1;"/>
+   <error val="1;3;71;5;2502;1;"/>
+   <error val="1;11;50;11;2502;1;"/>
+   <error val="1;12;67;14;2502;1;"/>
+   <error val="1;20;52;20;2502;1;"/>
+   <error val="1;21;67;23;2502;1;"/>
+  </errfile>
+  <errfile name="/Users/vitalij/Documents/Git/Marka/bootstrap/css/bootstrap.css">
+   <error val="2;93;33;93;2502;1;"/>
+   <error val="2;2111;19;2111;2502;1;"/>
+   <error val="2;3947;19;3947;2502;1;"/>
+   <error val="2;4072;19;4072;2502;1;"/>
+   <error val="2;4105;19;4105;2502;1;"/>
+   <error val="2;4138;19;4138;2502;1;"/>
+   <error val="2;4173;19;4173;2502;1;"/>
+   <error val="4;4951;15;4951;2502;1;"/>
+   <error val="4;4952;14;4952;2502;1;"/>
+   <error val="2;5886;30;5886;2502;1;"/>
+   <error val="2;6176;19;6176;2502;1;"/>
+   <error val="2;6289;19;6289;2502;1;"/>
+   <error val="2;6436;22;6436;2502;1;"/>
+   <error val="4;10230;15;10230;2502;1;"/>
+   <error val="4;10231;14;10231;2502;1;"/>
+  </errfile>
+ </errors>
+ <cakedata/>
+ <dplmenupath/>
+ <laravael/>
+ <smartyassings/>
+ <twigtemplate/>
+ <yiidata/>
+ <todoblock>
+  <todofile name="/Users/vitalij/Documents/Git/Marka/bootstrap/js/bootstrap.bundle.js">
+   <todo pos="5;198" name="TODO: Remove in v5"/>
+   <todo pos="5;5094" name="todo (fat): these should probably be refactored out of modal.js"/>
+   <todo pos="13;6375" name="TODO (fat): remove sketch reliance on jQuery position/offset"/>
+  </todofile>
+  <todofile name="/Users/vitalij/Documents/Git/Marka/bootstrap/js/bootstrap.js">
+   <todo pos="5;199" name="TODO: Remove in v5"/>
+   <todo pos="5;2481" name="todo (fat): these should probably be refactored out of modal.js"/>
+   <todo pos="13;3762" name="TODO (fat): remove sketch reliance on jQuery position/offset"/>
+  </todofile>
+ </todoblock>
+ <dbgurls/>
+ <filescache>
+  <file name="/Users/vitalij/Documents/Git/Marka/js/common.js" crc="1591976850064"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/fonts/Open_Sans_Condensed/LICENSE.txt" crc="1591976850048"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/css/media.css" crc="1591976850048"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/css/main.css" crc="1592580185509"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/css/fonts.css" crc="1592399842576"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/js/bootstrap.min.js" crc="1591976850042"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/js/bootstrap.js" crc="1591976850040"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/js/bootstrap.bundle.min.js" crc="1591976850040"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/js/bootstrap.bundle.js" crc="1591976850041"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/css/bootstrap.min.css" crc="1591976850037"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/css/bootstrap.css" crc="1591976850036"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/css/bootstrap-reboot.min.css" crc="1591976850032"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/css/bootstrap-reboot.css" crc="1591976850031"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/css/bootstrap-grid.min.css" crc="1591976850031"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/bootstrap/css/bootstrap-grid.css" crc="1591976850030"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/mail.php" crc="1591976850065"/>
+  <file name="/Users/vitalij/Documents/Git/Marka/index.html" crc="1592592171768"/>
+ </filescache>
+</project>
