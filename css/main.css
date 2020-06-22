@@ -53,7 +53,8 @@ body {
 }
 header {
 	background-color: #0c3313;
-	height: 100vh;
+	height: 100%;
+	border-bottom: 5px solid #c07e0a;
 }
 .top-line{
 	padding-top: 1em;
@@ -99,10 +100,13 @@ header {
 .main-mnu li:last-child{
 	padding-right: 0px;
 }
+.logo-garden-top{
+		margin-top: 1em;
+}
 
-.logo-garden-top a  {
+.logo-garden  {
+
 	font-family: 'OpenSansCondensed-Light', sans-serif;
-	text-align: center;
 	text-transform: uppercase;
 	font-size: 26px;
 	font-style: normal;
@@ -387,6 +391,7 @@ margin-bottom: 50px;
 /* ---------- footer -----------*/
 .footer{
 	padding-bottom: 3em;
+	border-top: 5px solid #c07e0a;
 }
 .footer-items{
 	width: 100%;
@@ -440,7 +445,6 @@ color:white;
 	margin-left: -20px;
 }
 .footer-list li a{
-
   font-family: OpenSansRegular;
   font-size: 14px;
   font-stretch: normal;
@@ -473,3 +477,24 @@ color:white;
 	background-color: #45744f;
 
 }
+.item-contacts{
+	list-style: none;
+	padding-left: 15px;
+  font-family: OpenSansRegular;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-style: normal;
+  line-height: 2.29;
+  letter-spacing: normal;
+  text-align: left;
+  color: #dcf9e1;
+}
+.item-contacts a{
+	 color: #dcf9e1;
+	 text-decoration: none;
+}
+.logo-garden-footer{
+	
+}
+
