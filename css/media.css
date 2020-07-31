@@ -7,11 +7,94 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.header-center{
+		flex-direction:column;
+		justify-content: center;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	header-center .vertical{
+		margin-top: 2em;
+	}
+	.vertical .h1{
+		font-size: 30px;
+		text-align: center;
+	}
+	.vertical .h2{
+		font-size: 23px;
+		text-align: center;
+	}
+	.vertical .h1:after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    width: 50%;
+    height: 1px;
+    opacity: 0.59;
+    background-color: #deef93;
+}
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.hand-img{
+	display: none;
+	}
+	.header-center .vertical{
+		margin-bottom: 2em;
+	}
+	.logo-garden-top{
+		text-align: center;
+	}
+	.main-mnu {
+    text-align:center;
+}
+.items{
+ justify-content:center;
+ flex-wrap: wrap;
+}
+.logo-garden-footer{
+	display: none;
+}
+.footer-items{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.footer-item{
+	align-items: center;
+flex-grow: 1;
+align-self: center;
+margin-bottom: 1.5em;
+}
+.footer-item h3{
+font-size: 2em;
+}
+.footer-list li{
+		line-height: 1.5em;
+	padding-bottom: 1em;
+}
+.footer-list li a{
+	font-size: 1.2em;
+
+}
+.footer-h3:after{
+	left:10%;
+	height:1px;
+	width: 50%;
+}
+.footer-contact{
+	font-size: 1.5em;
+}
+.footer-item li{
+	font-size: 1.2em;
+}
+.romb{
+	margin: 0 20%;
+}
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -39,7 +122,9 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.romb{
+		display: none;
+	}
 }
 
 /* Custom, iPhone Retina */
